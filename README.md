@@ -102,36 +102,6 @@ Exemplo de uso do atributo `onClick`:
 
 ---
 
-## 🎯 Desafios Extras (para estudo)
-
-### 🔹 Desafio 1 – Placar
-Implemente um placar que registre as vitórias do jogador e do app.
-```java
-int pontuacaoJogador = 0;
-int pontuacaoApp = 0;
-```
-Atualize o placar com:
-```java
-public void atualizarPlacar() {
-    TextView txtPlacar = findViewById(R.id.txtPlacar);
-    txtPlacar.setText("Jogador: " + pontuacaoJogador + " - App: " + pontuacaoApp);
-}
-```
-
-### 🔹 Desafio 2 – Botão "Reiniciar"
-Adicione um botão para reiniciar o jogo:
-```java
-public void reiniciarJogo() {
-    pontuacaoJogador = 0;
-    pontuacaoApp = 0;
-    atualizarPlacar();
-    ImageView imageResultado = findViewById(R.id.imgApp);
-    imageResultado.setImageResource(android.R.color.transparent);
-}
-```
-
----
-
 ## 💡 Possíveis Melhorias
 
 - Animações de transição entre jogadas  
@@ -139,17 +109,6 @@ public void reiniciarJogo() {
 - Customização visual (gradientes, bordas arredondadas, sombras)  
 - Suporte a temas claro/escuro  
 - Implementar navegação entre telas (Fragments ou múltiplos XMLs)
-
----
-
-## 📸 Demonstração (sugestão)
-
-Adicione aqui prints ou GIFs mostrando o funcionamento do app:
-
-```
-📷 Screenshot 1 – Tela inicial
-📷 Screenshot 2 – Jogada e resultado
-```
 
 ---
 
