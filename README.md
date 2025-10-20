@@ -92,6 +92,14 @@ Exemplo de uso do atributo `onClick`:
 
 ---
 
+## 📸 Demonstração
+
+### Tela 
+
+![Figura 1:](/img/img.png)
+
+---
+
 ## 🏗️ Funcionalidades Implementadas
 
 ✅ Escolha entre Pedra, Papel e Tesoura  
