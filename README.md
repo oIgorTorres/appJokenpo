@@ -77,7 +77,7 @@ As comparações determinam o resultado final:
 O layout principal (`activity_main.xml`) contém:
 - 3 botões (Pedra, Papel, Tesoura)
 - 1 `ImageView` (escolha do app)
-- 1 `TextView` (resultado)
+- 5 `TextView` 
 - 1 `TextView` opcional para placar
 
 Exemplo de uso do atributo `onClick`:
